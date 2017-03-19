@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpDependencyInversionPrinciple", "ExpDependencyInversionPrinciple\ExpDependencyInversionPrinciple.csproj", "{27A07C4C-F776-4095-AC29-500D3E476A4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Presentation", "_Presentation", "{832B5AA0-1F1F-401D-A1DF-E46F58C54961}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{2994021C-36FF-4279-AEC0-9F4A5B38C32A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpDependencyInversionPrinciple.HighLevel", "ExpDependencyInversionPrinciple.HighLevel\ExpDependencyInversionPrinciple.HighLevel.csproj", "{4F14968B-9873-4C04-98F4-D30DA5E61EB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpDependencyInversionPrinciple.LowLevel", "ExpDependencyInversionPrinciple.LowLevel\ExpDependencyInversionPrinciple.LowLevel.csproj", "{EFAB0142-88E4-4261-857B-E160B8E89CE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpDependencyInversionPrinciple.Abstraction", "ExpDependencyInversionPrinciple.Abstraction\ExpDependencyInversionPrinciple.Abstraction.csproj", "{F787CF35-3459-4947-97A7-384CAF77C685}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27A07C4C-F776-4095-AC29-500D3E476A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27A07C4C-F776-4095-AC29-500D3E476A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27A07C4C-F776-4095-AC29-500D3E476A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27A07C4C-F776-4095-AC29-500D3E476A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F14968B-9873-4C04-98F4-D30DA5E61EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F14968B-9873-4C04-98F4-D30DA5E61EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F14968B-9873-4C04-98F4-D30DA5E61EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F14968B-9873-4C04-98F4-D30DA5E61EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFAB0142-88E4-4261-857B-E160B8E89CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFAB0142-88E4-4261-857B-E160B8E89CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFAB0142-88E4-4261-857B-E160B8E89CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFAB0142-88E4-4261-857B-E160B8E89CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F787CF35-3459-4947-97A7-384CAF77C685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F787CF35-3459-4947-97A7-384CAF77C685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F787CF35-3459-4947-97A7-384CAF77C685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F787CF35-3459-4947-97A7-384CAF77C685}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27A07C4C-F776-4095-AC29-500D3E476A4B} = {832B5AA0-1F1F-401D-A1DF-E46F58C54961}
+		{4F14968B-9873-4C04-98F4-D30DA5E61EB9} = {2994021C-36FF-4279-AEC0-9F4A5B38C32A}
+		{EFAB0142-88E4-4261-857B-E160B8E89CE4} = {2994021C-36FF-4279-AEC0-9F4A5B38C32A}
+		{F787CF35-3459-4947-97A7-384CAF77C685} = {2994021C-36FF-4279-AEC0-9F4A5B38C32A}
+	EndGlobalSection
+EndGlobal
